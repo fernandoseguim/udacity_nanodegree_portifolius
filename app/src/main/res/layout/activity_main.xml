@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="it.seguim.apps.portifolius.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_app_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_nanodegree_apps"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="@dimen/base_margin"/>
+
+    <Button
+        android:id="@+id/btn_popular_movies"
+        android:text="@string/popular_movies"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_margin"
+        android:background="@drawable/button_green_with_border"/>
+
+    <Button
+        android:id="@+id/btn_stock_hawk"
+        android:text="@string/stock_hawk"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_margin"
+        android:background="@drawable/button_green_with_border"/>
+
+    <Button
+        android:id="@+id/btn_built_it_bigger"
+        android:text="@string/build_it_bigger"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_margin"
+        android:background="@drawable/button_green_with_border" />
+
+    <Button
+        android:id="@+id/btn_make_your_app_material"
+        android:text="@string/make_your_app_wtih_material"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_margin"
+        android:background="@drawable/button_green_with_border" />
+
+    <Button
+        android:id="@+id/btn_go_ubiquitious"
+        android:text="@string/go_ubiquitious"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_margin"
+        android:background="@drawable/button_green_with_border" />
+
+    <Button
+        android:id="@+id/btn_capstone"
+        android:text="@string/capstone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/base_margin"
+        android:background="@drawable/button_red_with_border" />
+
+</LinearLayout>
